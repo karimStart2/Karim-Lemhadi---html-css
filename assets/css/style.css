@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/*header_______________________________________________*/
+body{
+    background: #242424;
+    height: 100%;
+}
+.logo{
+    border-radius: 100px;
+    width: 150px;
+}
+.menu,
+a,
+button{
+    font-weight: 300;
+    font-size: 24px;
+    color:#65c0cc;
+    text-decoration: none;
+}
+
+header{
+    background: rgb(36,36,36);
+    background: linear-gradient(180deg, rgba(36,36,36,1) 0%,
+    rgba(36,36,36,1) 56%, 
+    rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.menu li a{
+    transition: all .6s ease;
+}
+.menu a:hover{
+    color:#39f;
+}
+button{
+    padding : 9px 25px;
+    background: #306066;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all .6s ease;
+}
+
+button:hover{
+    background: #39f;
+}
+
+/*fine header_____________________________________________________*/
+
+/*Main della home_________________________________________________*/
+.ContainerHome{
+    width: 100%;
+    height:650px;
+    background-color:#306066;
+    display: flex;
+    border-radius: 30px;
+    
+}
+.presentation{
+    width: 100%;
+    background-color: none;
+    padding: 90px 20px 20px 20px ;
+    margin: 0px;
+    border: 0px solid white;
+    text-align: center;
+    font-size:larger;
+    color: white;
+}
+.images{
+    width: 500px;
+    padding: 27px;
+    border: 0px solid white;
+}
+ img{
+    width: 350px;
+    
+    border-radius: 30px;
+}
+/*fine della main di home___________________________________________*/
+
+/*inizio della main della pagina Portfolio, sarà molto breve :(*/
+.container-portfolio{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 675px;
+    font-size:20px;
+    color: #306066;
+}
+.container-porfolio h1{
+    color: #306066;
+}
+/*Fine della main della pagina portfolio __________________________*/
+
+/*Inizio Main della pagina skill*/
+.container-project{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 675px;
+    font-size:30px;
+    color: #306066;
+}
+.container-project h1{
+    color: #306066;
+}
+/*------------------------------------- pagina skill*/
+.skill-grid-container{
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+}
+.skill-grid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill-grid-item{
+    border: 0px solid white;
+    width: 400px;
+    height: 300px;
+    border-radius:40px ;
+    margin: 10px;
+
+    background: rgb(11,41,45);
+background: linear-gradient(0deg, 
+rgba(11,41,45,1) 0%, rgba(48,96,102,1) 41%,
+ rgba(55,114,121,1) 100%);
+}
+.skill-grid-item h3{
+    font-size: 130%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+   
+}
+.skill-grid-item ul li{
+    padding: 15px;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+}
+/**/
+/*Fine della main della pagina skill___________________________________________________________*/
+
+/*inizio pagina contatti_________________________________________________________________________*/
+#contatti{
+    color: white;
+    border: 0px solid white;
+    width: 100%;
+    height: 550px;
+    border-radius:40px ;
+    padding: 30px;
+    text-align: center;
+    justify-content: space-between;
+    background: #0c0c0c;
+    
+    
+    
+    
+
+}
+
+
+#contatti h3{
+    font-size: 40px;
+    padding: 50px;
+    color: #e9e9e9;
+
+
+    
+}
+#contatti,li  {
+    font-size: 40;
+    
+    padding: 20px;
+    
+    list-style-type: none;
+    color: aliceblue;
+}
+#contatti img{
+    
+    width: 30px;
+    height: 30px;
+    
+    border: 0px solid white;
+}
+/*fine pagina contatti*/
+
+/*footer______________________________________*/
+#footer {
+    background-color: aliceblue;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    height: 50px;
+    clear: both;
+     color: white;
+    text-align: center;
+    
+    padding: 10px;
+    border: 0px solid blanchedalmond;
+    list-style-type: none;
+     
+ background: rgb(36,36,36);
+ background: linear-gradient(0deg, rgba(36,36,36,1) 0%, rgba(36,36,36,1) 49%, rgba(0,0,0,1) 100%);
+ 
+    
+ }
+ #footer ul li 
+ {
+     list-style:none;
+     display: inline-block;
+     justify-content: space-between;
+     padding: 0px 10px 0px;
+     border: 0px solid white;
+     bottom: 0px;
+     margin: 15px;
+     
+     
+   
+     
+     
+ }
+/*footer____________________________________________*/
+
